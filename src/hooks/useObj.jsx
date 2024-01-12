@@ -1,5 +1,5 @@
 import { useState,useRef, useMemo} from "react"
-import { obtener_datos } from "./fetch"
+import { obtener_datos } from "../logica/fetch.js"
 
 export const useObj= ({ordenar})=>{ 
 

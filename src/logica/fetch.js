@@ -1,5 +1,5 @@
 const  api = "http://www.omdbapi.com/?s="
-const apikey ="apikey=c186a383"
+import { apikey } from "./const"
 export async function obtener_datos ({busqueda}) {
    
 

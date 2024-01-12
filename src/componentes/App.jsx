@@ -1,8 +1,8 @@
 import { useState } from "react"
-import "./app.css"
+import "../estilos/app.css"
 import { Peli } from "./peli.jsx"
-import { useObj } from "./useObj.jsx"
-import Header from "./header"
+import { useObj } from "../hooks/useObj.jsx"
+import Header from "./header.jsx"
 
 
 export function App(){

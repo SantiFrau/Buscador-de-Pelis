@@ -1,4 +1,4 @@
-import { debounce } from "./debounce_fuction.js"; //limita la frecuencia de busqueda
+import { debounce } from "../logica/debounce_fuction.js"; //limita la frecuencia de busqueda
 
 export default function Header({refInput,setOrdenar,ordenar,buscar,error}){
   
